@@ -1,0 +1,302 @@
+@font-face {
+    font-family: JetBrains Mono;
+    src: url('fonts/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Kano;
+    src: url('fonts/Kano.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    background-color: #020308;
+    color: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+}
+
+#hero {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('img/desktop.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-name {
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.hero-nav {
+    font-size: 12px;
+}
+
+.hero-link {
+    text-decoration: none;
+    font-size: 12px;
+    color: #777777;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.hero-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.aboutme-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #020202;
+    color: #f2f2f2;
+    padding-bottom: 60px;
+}
+
+.aboutme-bignav-link {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #695D5D;
+    transition: 0.3s;
+}
+
+.aboutme-bignav-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.nav-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.aboutme-nav-current {
+    font-family: 'fonts/JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.aboutme-nav-current:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.aboutme-nav-link {
+    font-family: 'fonts/JetBrains Mono', monospace;
+    text-decoration: none;
+    color: #777777;
+    transition: color 0.3s ease;
+}
+
+.aboutme-nav-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.aboutme-portrait {
+    max-width: 260px;
+    filter: grayscale(40%);
+    margin-bottom: 30px;
+}
+
+.aboutme-portrait2 {
+    max-width: 180px;
+    max-height: 270px;
+}
+
+.aboutme-label {
+    font-family: Kano;
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 12px;
+}
+
+.aboutme-text {
+    font-family: Kano;
+    font-size: 12px;
+    max-width: 350px;
+}
+
+.aboutme-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.aboutme-socials {
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 10px;
+}
+
+.aboutme-socials-link {
+    text-decoration: none;
+    color: #695D5D;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.aboutme-socials-link:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(255,255,255,0.6);
+}
+
+.pastwork-section {
+    background-color: #020202;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.pastwork-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.pastwork-link {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pastwork-link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(255, 255, 255, 0.146);
+}
+
+
+.project-section {
+    font-family: Kano;
+    background-color: #050505;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.project-nav-current {
+    color: #bbbbbb;
+}
+
+.project-cover {
+    max-width: 100%;
+}
+
+.project-title {
+    font-size: 16px;
+    margin-bottom: 75px;
+    color: #cccccc;
+}
+
+.project-details-label {
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 8px;
+}
+
+.project-details-value {
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+
+.project-description {
+    font-size: 16px;
+    margin-bottom: 75px;
+}
+
+.project-hero-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    font-family: Kano;
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 8px;
+}
+
+.contact-section {
+    background-color: #050505;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact-nav-current {
+    color: #bbbbbb;
+}
+
+.contact-heading {
+    font-family: Kano;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.contact-label {
+    color: #695D5D;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.contact-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #666;
+    border-radius: 0;
+    color: #ffffff;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+
+.contact-input:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom-color: #ffffff;
+}
+
+.contact-submit {
+    color: #ffffff;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    margin-top: 75px;
+}
+
+.contact-submit:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.thankyou-section {
+    min-height: 100vh;
+    background-color: #050505;
+}
+
+.thankyou-heading {
+    font-family: Kano;
+    color: #FFF;
+    font-size: 40px;
+}
+
+.thankyou-subtitle {
+    font-family: Kano;
+    color: #FFF;
+    font-size: 36px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
